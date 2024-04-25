@@ -1,4 +1,4 @@
-# Enchanted Treasure Chest!
+# Enchanted Treasure Chest!🏴‍☠️
 
 Enchanted Treasure Chest is a kid's pirate themed treasure chest. It uses an electronic lock trigger by an RFID keycard. This project is built around an **Arduino** using the mfrc522 to read the card and control a servo locking, as well as a motorized opening mechanism.
 
