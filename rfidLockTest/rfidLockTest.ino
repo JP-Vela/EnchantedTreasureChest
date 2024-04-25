@@ -1,8 +1,8 @@
 #include <SPI.h>
 #include <MFRC522.h>
 #include <Servo.h>
-#define RST_PIN         5          // Configurable, see typical pin layout above
-#define SS_PIN          53         // Configurable, see typical pin layout above
+#define RST_PIN 5          // Configurable, see typical pin layout above
+#define SS_PIN  53         // Configurable, see typical pin layout above
 MFRC522 mfrc522(SS_PIN, RST_PIN);  // Create MFRC522 instance
 String tagID = "nothing";
 String lockID1 = "C9F24FB3";
