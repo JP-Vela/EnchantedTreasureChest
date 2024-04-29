@@ -12,7 +12,7 @@ Servo myservo;  // create servo object to control a servo
 // twelve servo objects can be created on most boards
 
 int pos = 0;    // variable to store the servo position
-bool opened = false;
+bool opened = true;
 
 void setup() {
 Serial.begin(115200);                       // Initialize serial communications with the PC
